@@ -84,8 +84,9 @@ To run this analysis, make sure you have Python installed (preferably Python 3.8
 # Clone the repository
 git clone https://github.com/nkhanh0104/olist-data-science.git
 cd olist-data-science
-
-# (Optional) Create and activate a virtual environment for a clean setup
+```
+(Optional) Create and activate a virtual environment for a clean setup
+```Bash
 python -m venv venv
 source venv/bin/activate # On Windows: `venv\Scripts\activate`
 
