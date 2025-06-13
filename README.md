@@ -53,24 +53,33 @@ olist-e-commerce-analysis/
 │
 ├── data/
 │   ├── olist_customers_dataset.csv
-│   ├── olist_orders_dataset.csv
+│   ├── olist_geolocation_dataset.csv
 │   ├── olist_order_items_dataset.csv
-│   ├── olist_products_dataset.csv
-│   ├── olist_sellers_dataset.csv
 │   ├── olist_order_payments_dataset.csv
 │   ├── olist_order_reviews_dataset.csv
-│   ├── olist_geolocation_dataset.csv
+│   ├── olist_orders_dataset.csv
+│   ├── olist_products_dataset.csv
+│   ├── olist_sellers_dataset.csv
 │   └── product_category_name_translation.csv
 │
 ├── notebooks/
 │   └── olist_eda_and_segmentation.ipynb # Main Jupyter Notebook for analysis
 │
-├── reports/
-│   ├── figures/ # Folder to save generated plots and images from EDA/ML
-│   │   ├── monthly_sales_trend.png
-│   │   ├── top_categories_by_item_count.png
-│   │   └── ... (other relevant plots)
-│   └── README_insights.md # Optional: A separate markdown file for detailed insights/recommendations
+├── charts/
+│   ├── bottom_15_category_avg_review_score.png
+│   ├── cluster_profiles_rfm_means.png
+│   ├── kmeans_elbow_method_pipeline.png
+│   ├── kmeans_silhouette_score_pipeline.png
+│   ├── monthly_orders_trend.png
+│   ├── monthly_sales_trend_by_year.png
+│   ├── payment_types_distribution.png
+│   ├── rfm_original_distributions.png
+│   ├── rfm_transformed_distributions.png
+│   ├── top_10_categories_by_items.png
+│   ├── top_10_categories_by_revenue.png
+│   ├── top_10_states_by_customers.png
+│   ├── top_10_states_by_orders.png
+│   └── top_15_category_avg_review_score.png
 │
 ├── .gitignore # Specifies intentionally untracked files to ignore
 ├── requirements.txt # Lists all required Python libraries
