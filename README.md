@@ -98,13 +98,15 @@ cd olist-data-science
 ```Bash
 python -m venv venv
 source venv/bin/activate # On Windows: `venv\Scripts\activate`
-
+```
 # Install required libraries
-# It's a good practice to create a requirements.txt file by running 'pip freeze > requirements.txt'
-# after installing necessary libraries in your environment.
+* It's a good practice to create a requirements.txt file by running 'pip freeze > requirements.txt' after installing necessary libraries in your environment.
+```Bash
 pip install pandas matplotlib seaborn scikit-learn jupyter
-# Or install directly from a requirements.txt file:
-# pip install -r requirements.txt
+```
+* Or install directly from a requirements.txt file:
+```Bash
+pip install -r requirements.txt
 ```
 ## 🏃 How to Run the Analysis
 ### 1. Download the Dataset:
